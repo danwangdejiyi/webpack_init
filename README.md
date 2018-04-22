@@ -1,7 +1,7 @@
 # webpack_init
-webpack init process：Record webpack building process
-做个笔记，webpack react 项目初始化搭建过程
-默认：已经安装nodeJS，TortoiseGit，
+webpack init process：Record webpack building process\<br> 
+做个笔记，webpack react 项目初始化搭建过程\<br> 
+默认：已经安装nodeJS，TortoiseGit\<br> 
 ## 第一步：
   创建github仓库
 ## 第二步：

@@ -24,9 +24,32 @@ webpack init process：Record webpack building process <br>
   2、测试：webpack4需要指定mode（development、production、none），-o 指输出 <br>
     npx webpack --mode development index.js -o main.js <br>
   3、测试完成后新建src目录，并将index.js移入src目录下，删除main.js <br>
+    mkdir src && move index.js ./src
+  4、新建dist目录并新建index.html，引入main.js（webpack4+默认将index.js输出为main.js）
 ##### 第七步：
-  
+  安装热更新：webpack-dev-server：npm i -D webpack-dev-server <br>
+  1、测试webpack-dev-server <br>
+  npx webpack-dev-server --mode development --content-base ./dist <br>
+  输出Compiled successfully. 表示成功了
 ##### 第八步：
+  1、安装react和react-dom <br>
+    npm i -D react react-dom <br>
+  2、测试react，src目录的index.js输入react测试
+    import React from 'react' <br>
+    import ReactDOM from 'react' <br>
+    ReactDOM.render( <br>
+      <div>Hello webpack</div>, <br>
+      document.querySelector('#app') <br>
+    ) <br>
+    ctrl s :保存之后报错，因为webpack读不懂jsx语法，故需要安装babel-loader等babel工具 <br>
+  3、安装babel包 ，解析jsx，es6转es5等<br>
+    npm i -D babel-loader <br>
+    npm i -D babel-core <br>
+    npm i -D babel-preset-env
+    /* <br>
+      npm i -D babel-preset-es2015（es6转换，，已放弃，应该使用 babel-preset-env，支持全部es） <br>
+      npm i -D babel-preset-stage-1（分别为es支持） <br>
+    */ <br>
 ##### 第九步：
 ##### 第十步：
 

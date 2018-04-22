@@ -46,8 +46,8 @@ webpack init process：Record webpack building process <br>
     npm i -D babel-loader <br>
     npm i -D babel-core <br>
     npm i -D babel-preset-react <br>
-    npm i -D babel-cli <br>
-    npm i -D babel-preset-env <br>
+    npm i -D babel-cli  (babel命令行工具) <br>
+    npm i -D babel-preset-env （es语法糖转换工具） <br>
       需要新建：.babelrc文件 <br>
       写入： <br>
       { 

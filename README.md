@@ -50,15 +50,15 @@ webpack init process：Record webpack building process <br>
     npm i -D babel-preset-env <br>
       需要新建：.babelrc文件 <br>
       写入： <br>
-      { <br>
-         "presets": ["react","env"], <br>
-         "plugins": [] <br>
+      { 
+         "presets": ["react","env"], 
+         "plugins": [] 
       }
     /* 官方推荐使用babel-preset-env，以方便es20**系列的使用 <br>
       npm i -D babel-preset-es2015（es6转换，，已放弃，应该使用 babel-preset-env，支持全部es） <br>
       npm i -D babel-preset-stage-1（分别为es支持） <br>
     */ <br>
-    新建webpack.config.js文件
+    新建webpack.config.js文件 <br>
     const path = require('path');
     module.exports = {
       mode: 'development',

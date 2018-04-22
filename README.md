@@ -111,7 +111,10 @@ webpack init process：Record webpack building process <br>
   npm run build 上线打包  <br>
 ##### 第十步：
   1、配置webpack.config.js <br>
-
+    module.exports.devServer包含 port端口号，host：”0.0.0.0“ <br>
+  2、最好配置多个webpack.config.js，方便针对测试和上线 <br>
+    https://zhuanlan.zhihu.com/p/29161762 <br>
+    http://web.jobbole.com/92555/ <br>
 
 
 

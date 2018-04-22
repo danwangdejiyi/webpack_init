@@ -42,11 +42,11 @@ webpack init process：Record webpack building process <br>
       document.querySelector('#app') <br>
     ) <br>
     ctrl s :保存之后报错，因为webpack读不懂jsx语法，故需要安装babel-loader等babel工具 <br>
-  3、安装babel包 ，解析jsx，es6转es5等<br>
+  3、安装babel包 ，解析jsx，es6转es5等 <br>
     npm i -D babel-loader <br>
     npm i -D babel-core <br>
-    npm i -D babel-preset-env
-    /* <br>
+    npm i -D babel-preset-env <br>
+    /* 官方推荐使用babel-preset-env，以方便es20**系列的使用 <br>
       npm i -D babel-preset-es2015（es6转换，，已放弃，应该使用 babel-preset-env，支持全部es） <br>
       npm i -D babel-preset-stage-1（分别为es支持） <br>
     */ <br>

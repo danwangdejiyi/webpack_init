@@ -59,8 +59,7 @@ webpack init process：Record webpack building process <br>
       npm i -D babel-preset-stage-1（分别为es支持） <br>
     */ <br>
     npm install babel-polyfill@next --save-dev <br>
-    安装babel-polyfill es6转es5（用于实现浏览器不支持原生功能的代码） <br>
-    npm i --save-dev babel-plugin-transform-runtime   
+    安装babel-polyfill es6转es5（用于实现浏览器不支持原生功能的代码） <br
 
 
     修改上面的.babelrc文件，将presets选项中的"env"修改为

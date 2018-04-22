@@ -58,7 +58,7 @@ webpack init process：Record webpack building process <br>
       npm i -D babel-preset-es2015（es6转换，，已放弃，应该使用 babel-preset-env，支持全部es） <br>
       npm i -D babel-preset-stage-1（分别为es支持） <br>
     */ <br>
-    新建webpack.config.js文件 <br>
+    4、新建webpack.config.js文件 <br>
     const path = require('path');
     module.exports = {
       mode: 'development',
@@ -80,8 +80,11 @@ webpack init process：Record webpack building process <br>
           }
         ]
       }
-    }
+    } <br>
+    5、重新启动webpack-dev-server <br>
+    npx webpack-dev-server
 ##### 第九步：
+
 ##### 第十步：
 
 

@@ -53,7 +53,7 @@ webpack init process：Record webpack building process <br>
       { 
          "presets": ["react","env"], 
          "plugins": [] 
-      }   ___需要与webpack.config.js中的presets字段对应___
+      }   ___需要与webpack.config.js中的presets字段对应___ <br>
     /* 官方推荐使用babel-preset-env，以方便es20**系列的使用 <br>
       npm i -D babel-preset-es2015（es6转换，，已放弃，应该使用 babel-preset-env，支持全部es） <br>
       npm i -D babel-preset-stage-1（分别为es支持） <br>
@@ -84,8 +84,10 @@ webpack init process：Record webpack building process <br>
     5、重新启动webpack-dev-server <br>
     npx webpack-dev-server
 ##### 第九步：
-
+  1、配置package.json <br>
+  
 ##### 第十步：
+  1、配置webpack.config.js <br>
 
 
 

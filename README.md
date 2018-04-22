@@ -2,6 +2,7 @@
 webpack init process：Record webpack building process <br> 
 做个笔记，webpack react 项目初始化搭建过程 <br> 
 默认：已经安装nodeJS，TortoiseGit <br> 
+注意：--save-dev 表示dependencies 上线所用包，，--save 表示devDependencies开发所用包
 ##### 第一步：
   创建github仓库
 ##### 第二步：
@@ -103,7 +104,7 @@ webpack init process：Record webpack building process <br>
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "dev":"webpack-dev-server --mode development --config webpack.config.js",
+    "dev":"npx webpack-dev-server --mode development --config webpack.config.js",//可以配置自定义webpack.config.js
     "webpackDevServer":"npx webpack-dev-server"
   }, <br>
   可以使用 npm run webpackDevServer 来运行npx webpack-dev-server  <br>

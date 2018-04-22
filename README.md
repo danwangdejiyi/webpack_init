@@ -100,7 +100,15 @@ webpack init process：Record webpack building process <br>
     npx webpack-dev-server
 ##### 第九步：
   1、配置package.json <br>
-  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev":"webpack-dev-server --mode development --config webpack.config.js",
+    "webpackDevServer":"npx webpack-dev-server"
+  }, <br>
+  可以使用 npm run webpackDevServer 来运行npx webpack-dev-server  <br>
+  npm run dev  升级版 webpackDevServer 线下测试 <br>
+  npm run build 上线打包  <br>
 ##### 第十步：
   1、配置webpack.config.js <br>
 

@@ -11,13 +11,13 @@ webpack init process：Record webpack building process <br>
 ##### 第四步：
   初始化npm：npm init -y
 ##### 第五步：
-  安装webpack和webpack-cli（由于webpack4+需要全局安装才能使用，所以先全局安装再本地安装）
-  1、全局安装
-    npm install --global webpack 
-    npm i -g webpack-cli
-  2、本地安装
-    npm install --save-dev webpack-cli
-    npm i -D webpack-cli
+  安装webpack和webpack-cli（由于webpack4+需要全局安装才能使用，所以先全局安装再本地安装）\<br>
+  1、全局安装\<br>
+    npm install --global webpack\<br>
+    npm i -g webpack-cli\<br>
+  2、本地安装\<br>
+    npm install --save-dev webpack-cli\<br>
+    npm i -D webpack-cli\<br>
 ##### 第六步：
 ##### 第七步：
 ##### 第八步：

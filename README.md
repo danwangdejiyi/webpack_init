@@ -53,8 +53,8 @@ webpack init process：Record webpack building process <br>
       { 
          "presets": ["react","env"], 
          "plugins": [] 
-      }
-    /* 官方推荐使用babel-preset-env，以方便es20**系列的使用 <br>
+      }   ___需要与webpack.config.js中的presets字段对应___
+    /* 官方推荐使用babel-preset-env，以方便es20**系列的使用 <br>
       npm i -D babel-preset-es2015（es6转换，，已放弃，应该使用 babel-preset-env，支持全部es） <br>
       npm i -D babel-preset-stage-1（分别为es支持） <br>
     */ <br>
@@ -74,8 +74,8 @@ webpack init process：Record webpack building process <br>
             ],
             loader: 'babel-loader',
             options: {
-              presets: ['react','env'],
-            plugins:[]
+              presets: ['react','env'],___需要 .babelrc文件z红的presets字段对应___
+              plugins:[]
             }
           }
         ]

@@ -19,7 +19,13 @@ webpack init process：Record webpack building process <br>
     npm install --save-dev webpack-cli <br>
     npm i -D webpack-cli <br>
 ##### 第六步：
+  webpack测试 <br>
+  1、新建index.js <br>
+  2、测试：webpack4需要指定mode（development、production、none），-o 指输出 <br>
+    npx webpack --mode development index.js -o main.js <br>
+  3、测试完成后新建src目录，并将index.js移入src目录下，删除main.js <br>
 ##### 第七步：
+  
 ##### 第八步：
 ##### 第九步：
 ##### 第十步：

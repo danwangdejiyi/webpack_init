@@ -124,3 +124,15 @@ webpack init process：Record webpack building process <br>
   npm uninstall（卸载） package-name <br>
   npm root -g（查看全局安装目录） <br>
   npm root --save-dev(查看本地安装目录，缩写：-D) <br>
+##### 2、git命令
+  git init -y  <br>
+  git clone git地址 <br>
+  git status 查看新增提交文件 <br>
+  git add * 提交所以更改 <br>
+  git commit -m "提交文字内容" <br>
+  git push origin master 提交到master分支 <br>
+  
+新建.gitignore  git忽略文件 <br>
+node_modules/ <br>
+
+git remote add origin <server>如此你就能够将你的改动推送到所添加的服务器上去了。  <br>

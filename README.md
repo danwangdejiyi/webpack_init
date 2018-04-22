@@ -32,6 +32,7 @@ webpack init process：Record webpack building process <br>
 
 # other 相关命令
 ##### 1、npm命令
-  npm install （安装，缩写：i）  package-name（npm包） --global（安装范围：全局安装--global，缩写-g 和 本地安装--save-dev，缩写-D） 
-  npm uninstall（卸载） package-name 
-  npm root -g（查看全局安装目录）
+  npm install （安装，缩写：i）  package-name（npm包） --global（安装范围：全局安装--global，缩写-g 和 本地安装--save-dev，缩写-D）<br>
+  npm uninstall（卸载） package-name <br>
+  npm root -g（查看全局安装目录） <br>
+  npm root --save-dev(查看本地安装目录，缩写：-D) <br>

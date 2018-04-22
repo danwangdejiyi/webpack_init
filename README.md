@@ -45,11 +45,42 @@ webpack init process：Record webpack building process <br>
   3、安装babel包 ，解析jsx，es6转es5等 <br>
     npm i -D babel-loader <br>
     npm i -D babel-core <br>
+    npm i -D babel-preset-react <br>
+    npm i -D babel-cli <br>
     npm i -D babel-preset-env <br>
+      需要新建：.babelrc文件 <br>
+      写入： <br>
+      { <br>
+         "presets": ["react","env"], <br>
+         "plugins": [] <br>
+      }
     /* 官方推荐使用babel-preset-env，以方便es20**系列的使用 <br>
       npm i -D babel-preset-es2015（es6转换，，已放弃，应该使用 babel-preset-env，支持全部es） <br>
       npm i -D babel-preset-stage-1（分别为es支持） <br>
     */ <br>
+    新建webpack.config.js文件
+    const path = require('path');
+    module.exports = {
+      mode: 'development',
+      devServer: {//可以配置
+        contentBase: path.resolve(__dirname, 'dist')
+      },
+      module: {
+        rules: [
+          {
+            test: /\.js$/,
+            include: [
+              path.resolve(__dirname, 'src')
+            ],
+            loader: 'babel-loader',
+            options: {
+              presets: ['react','env'],
+            plugins:[]
+            }
+          }
+        ]
+      }
+    }
 ##### 第九步：
 ##### 第十步：
 

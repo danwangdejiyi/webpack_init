@@ -1,4 +1,5 @@
 import 'babel-polyfill';// 或者require('babel-polyfill');
+import 'whatwg-fetch'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
@@ -40,8 +41,8 @@ async function foo() {
 
 foo();
 
-
-fetch("http://127.0.0.1").then(function(response){console.log(response)})
+console.log(123)
+fetch("http://localhost:8080").then(function(response){console.log(response)})
 
 
 

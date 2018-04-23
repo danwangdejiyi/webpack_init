@@ -118,7 +118,9 @@ webpack init process：Record webpack building process <br>
     http://web.jobbole.com/92555/ <br>
 
 
-
+###### 注
+1、如果使用chrome的fetch的话，需要安装 whatwg-fetch <br>
+   生产环境安装：npm i --save whatwg-fetch 
 
 
 
